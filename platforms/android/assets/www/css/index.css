@@ -139,7 +139,14 @@ p {
 
 .aboveButton {
   position: fixed;
+  top: 65%;
   left: 15%;
+}
+
+.titlepos {
+  position: fixed;
+  top: 0px;
+  left: 0px;
 }
 
 .middle {

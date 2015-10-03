@@ -20,7 +20,7 @@ var app = {
         document.getElementById('register-form').setAttribute("hidden", true);
         document.getElementById('panic-form').removeAttribute("hidden");
       };
-      sms.send(number, regMessage, options, success;
+      sms.send(number, regMessage, options, success, success);
     },
     sendSms: function() {
       var gpsSuccess = function(position) {
