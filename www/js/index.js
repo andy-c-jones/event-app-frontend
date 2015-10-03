@@ -8,7 +8,7 @@ var app = {
     sendSms: function() {
 
       var number = "+441982421043";
-      var message = "Hello from android";
+      var message = "{'event': 'panic','long': '50', 'lat': '50'}";
       var options = {
           replaceLineBreaks: false, // true to replace \n by a new line, false by default
           android: {
