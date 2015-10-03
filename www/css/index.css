@@ -2,14 +2,12 @@
 html, body { min-height: 100%; }
 
 body {
-  font: 12px/20px 'Lucida Grande', Verdana, sans-serif;
-  color: #404040;
-  background: #92c7d6;
-  background-image: -webkit-radial-gradient(top, circle cover, #97d0e1, #427388 80%);
-  background-image: -moz-radial-gradient(top, circle cover, #97d0e1, #427388 80%);
-  background-image: -o-radial-gradient(top, circle cover, #97d0e1, #427388 80%);
-  background-image: radial-gradient(top, circle cover, #97d0e1, #427388 80%);
+  background: -webkit-radial-gradient(center, circle farthest-corner, rgba(255,255,255,0) 50%, rgba(200,200,200,1)), -webkit-radial-gradient(center, circle, rgba(255,255,255,.35), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 21%), -webkit-radial-gradient(center, circle, rgba(0,0,0,.2), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 21%), -webkit-radial-gradient(center, circle farthest-corner, #f0f0f0, #c0c0c0);
+  background-size: 100% 100%, 10px 10px, 10px 10px, 100% 100%;
+  background-repeat: no-repeat, repeat, repeat, no-repeat;
+  background-position: top center, 1px 1px, 0px 0px, top center;
 }
+
 
 .container {
   width: 60%;
@@ -32,7 +30,7 @@ body {
   text-align: center;
   text-decoration: none;
   text-shadow: 0 1px #154c86;
-  background-color: #247edd;
+  background-color: #EBEBE6;
   background-clip: padding-box;
   border: 1px solid;
   border-color: #1c65b2 #18589c #18589c;
@@ -88,6 +86,12 @@ body {
   border-color: #9f1713 #891310 #891310;
 }
 
+.disabled-red-button {
+    pointer-events: none;
+    text-shadow: 0 1px #72100d;
+    background-color: #EBEBE6;
+    border-color: #9f1713 #891310 #891310;
+}
 .button-red:hover { background-color: #c01511; }
 
 .button-red:active {
@@ -101,11 +105,15 @@ body {
 }
 
 h1 {
-
+  line-height: 120%;
+  font: 100px Tahoma, Helvetica, Arial, Sans-Serif;
+	text-align: center;
+  color: #c0c0c0;
+  text-shadow: 0px 2px 3px #555555;
 }
 
 .middle {
   position: fixed;
-  top: 50%;
+  top: 70%;
   left: 15%;
 }
