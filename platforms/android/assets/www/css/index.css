@@ -139,24 +139,24 @@ p {
 
 .aboveButton {
   position: fixed;
-  top: 65%;
+  top: 380px;
   left: 15%;
 }
 
 .titlepos {
   position: fixed;
-  top: 0%;
+  top: 0px;
   left: 0%;
 }
 
 .middle {
   position: fixed;
-  top: 70%;
+  top: 400px;
   left: 15%;
 }
 
 .middlereg {
   position: fixed;
-  top: 50%;
+  top: 300px;
   left: 25%;
 }
