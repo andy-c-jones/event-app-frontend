@@ -112,8 +112,13 @@ h1 {
   text-shadow: 0px 2px 3px #555555;
 }
 
+.aboveButton {
+  position: fixed;
+  left: 15%;
+}
+
 .middle {
   position: fixed;
-  top: 80%;
+  top: 70%;
   left: 15%;
 }

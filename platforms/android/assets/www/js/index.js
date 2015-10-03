@@ -7,7 +7,7 @@ var app = {
     },
     sendSms: function() {
       var gpsSuccess = function(position) {
-        var number = "+441982421043";
+        var number = "+441793250159";
         var message = "{'event': 'panic','long': '" + position.coords.longitude + "', 'lat': '" + position.coords.latitude + "'}";
         var options = {
         replaceLineBreaks: false, // true to replace \n by a new line, false by default
