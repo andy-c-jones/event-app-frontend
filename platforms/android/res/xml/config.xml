@@ -21,4 +21,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <feature name="Sms">
+        <param name="android-package" value="com.cordova.plugins.sms.Sms" />
+    </feature>
 </widget>

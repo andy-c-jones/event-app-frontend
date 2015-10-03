@@ -6,7 +6,7 @@ var app = {
         document.getElementById('panicbtn').addEventListener('click', this.receivedEvent, false);
     },
     receivedEvent: function() {
-     document.getElementById('panicmsg').setAttribute('style', 'display:none;');
+     document.getElementById('panicmsg').setAttribute('style', 'display');
  }
 };
 
