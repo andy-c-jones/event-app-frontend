@@ -17,7 +17,8 @@ module.exports.metadata =
 // TOP OF METADATA
 {
     "cordova-plugin-whitelist": "1.1.0",
-    "com.cordova.plugins.sms": "0.1.6"
+    "com.cordova.plugins.sms": "0.1.6",
+    "cordova-plugin-geolocation": "1.0.1"
 }
 // BOTTOM OF METADATA
 });
