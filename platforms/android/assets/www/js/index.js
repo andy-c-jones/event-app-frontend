@@ -15,7 +15,7 @@ var app = {
       document.getElementById('register').addEventListener('click', this.register, false);
     },
     register: function() {
-      var regMessage = "{'event': 'register','name': '" + document.getElementById('name').value + "', 'nok': '" + document.getElementById('nok').value + "'}";
+      var regMessage = "{'event': 'register','name': '" + document.getElementById('name').value + "', 'nok': '" + document.getElementById('nok').value + "', 'nokphone': '" + document.getElementById('nokphone').value + "'}";
       var success = function () {
         document.getElementById('register-form').setAttribute("hidden", true);
         document.getElementById('panic-form').removeAttribute("hidden");
