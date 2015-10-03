@@ -11,8 +11,25 @@
     <body>
         <div class="app">
             <h1>DONT PANIC!</h1>
-            <div id="panicmsg" class="aboveButton" style="display:none;">Please wait...</div>
-            <a id="panicbtn" class="button button-red middle">Send Alert!</a>
+              <div id="register-form" class="middlereg" hidden>
+              <p>
+                Name:
+                <br>
+                <input type="text" id="name">
+                <br><br>
+                Next of kin contact details:
+                <br>
+                <input type="text" id="nok">
+                <br><br>
+                <a id="register" class="button button-green">Register</a><br>
+                <div id="regmsg">Testing</div>
+              </p>
+              </div>
+
+              <div id="panic-form" >
+                <div id="panicmsg" class="aboveButton" style="display:none;">Please wait...</div>
+                <a id="panicbtn" class="button button-red middle">Send Alert!</a>
+              </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>

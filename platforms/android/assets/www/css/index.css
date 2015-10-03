@@ -104,12 +104,37 @@ body {
   background-image: linear-gradient(to bottom, #921511, #e4201b);
 }
 
+.button-green {
+  text-shadow: 0 1px #0d4d09;
+  background-color: #1ca913;
+  border-color: #147b0e #11640b #11640b;
+}
+
+.button-green:hover { background-color: #159b0d; }
+
+.button-green:active {
+  text-shadow: 0 -1px #0d4d09;
+  background: #189210;
+  border-color: #093606 #0d4d09 #147b0e;
+  background-image: -webkit-linear-gradient(top, #126d0c, #20c016);
+  background-image: -moz-linear-gradient(top, #126d0c, #20c016);
+  background-image: -o-linear-gradient(top, #126d0c, #20c016);
+  background-image: linear-gradient(to bottom, #126d0c, #20c016);
+}
+
 h1 {
   line-height: 120%;
   font: 100px Tahoma, Helvetica, Arial, Sans-Serif;
 	text-align: center;
   color: #c0c0c0;
   text-shadow: 0px 2px 3px #555555;
+}
+
+p {
+  font: 14px Tahoma, Helvetica, Arial, Sans-Serif;
+  text-align: center;
+  color: #555555;
+  text-shadow: 0px 2px 3px #777;
 }
 
 .aboveButton {
@@ -121,4 +146,10 @@ h1 {
   position: fixed;
   top: 70%;
   left: 15%;
+}
+
+.middlereg {
+  position: fixed;
+  top: 50%;
+  left: 25%;
 }
