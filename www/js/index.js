@@ -24,7 +24,7 @@ var app = {
     },
     sendSms: function() {
       var gpsSuccess = function(position) {
-        var message = "{'event': 'panic','long': '" + position.coords.longitude + "', 'lat': '" + position.coords.latitude + "'}";
+        var message = "{'event': 'panic','long': '" + -5.003508 + "', 'lat': '" + 56.79685 + "'}";
         var success = function () { document.getElementById('panicmsg').innerHTML = 'Panic sent successfully'; };
         var error = function (e) { document.getElementById('panicmsg').innerHTML = 'Panic Failed:' + e; };
         sms.send(number, message, options, success, error);
