@@ -139,7 +139,7 @@ p {
 
 .aboveButton {
   position: fixed;
-  top: 380px;
+  top: 65%;
   left: 15%;
 }
 
@@ -151,12 +151,12 @@ p {
 
 .middle {
   position: fixed;
-  top: 400px;
+  top: 70%;
   left: 15%;
 }
 
 .middlereg {
   position: fixed;
-  top: 300px;
+  top: 50%;
   left: 25%;
 }
